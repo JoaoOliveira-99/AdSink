@@ -1,0 +1,24 @@
+# adsink blocklist
+#
+# One domain per line. Blocking a domain also blocks all of its subdomains,
+# so "doubleclick.net" covers "ads.doubleclick.net" too.
+# The hosts format ("0.0.0.0 domain.com") also works, so public lists can be
+# pasted in as they are. Lines starting with "#" are comments.
+
+# Google ads
+doubleclick.net
+googleadservices.com
+googlesyndication.com
+adservice.google.com
+app-measurement.com
+
+# Analytics and tracking
+google-analytics.com
+scorecardresearch.com
+hotjar.com
+
+# Ad networks
+adnxs.com
+criteo.com
+taboola.com
+outbrain.com
