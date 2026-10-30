@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "adsink"
 version = "0.1.0"
 requires-python = ">=3.14"
+dependencies = ["dnslib>=0.9.24"]
 
 [project.optional-dependencies]
 dev = ["pytest"]
