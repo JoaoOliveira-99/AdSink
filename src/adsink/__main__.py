@@ -1,4 +1,9 @@
-from adsink.main import print_hi
+"""Entry point: `python -m adsink`."""
 
-if __name__ == '__main__':
-    print_hi('PyCharm')
+
+def main() -> None:
+    print("adsink: running!")
+
+
+if __name__ == "__main__":
+    main()
